@@ -13,7 +13,7 @@ class VISITED(Enum):
 config = dotenv_values(".env")
 SOURCE_FOLDER = config['SOURCE_FOLDER']
 
-VISITED_JSON = 'visited.json'
+VISITED_JSON = 'data/visited.json'
 
 IMAGE_EXTENSIONS = ('.jpg', '.jpeg', '.png', '.bmp', '.gif', '.tiff')
 
